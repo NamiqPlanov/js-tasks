@@ -1,3 +1,4 @@
+// A: consolelog adi dogru deyil. Callback daha uygun olardi. callback1, callback2 kimi adlandira bilersen. 
 function add(question,alert,consolelog){
     
     if (confirm(question)) alert()
