@@ -1,8 +1,8 @@
 // A: consolelog adi dogru deyil. Callback daha uygun olardi. callback1, callback2 kimi adlandira bilersen. 
-function add(question,alert,consolelog){
+function add(question,alert,callback1){
     
     if (confirm(question)) alert()
-    else consolelog()
+    else callback1()
 }
 function showAlert(number1,number2){
     number1 = +prompt('Enter first number: ')

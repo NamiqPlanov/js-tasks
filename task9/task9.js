@@ -1,13 +1,14 @@
+const textview=document.querySelector('.textview') 
 function insert(num){
-    document.form1.textview.value = document.form1.textview.value + num;
+    textview.value = textview.value + num;
 }
 function equal(){
-    var exp = document.form1.textview.value;
+    var exp = textview.value;
     if(exp){
-        document.form1.textview.value = eval(exp);
+        textview.value = eval(exp);
     }
 } 
 function backspace(){
-    var exp = document.form1.textview.value;
-    document.form1.textview.value = exp.substring(0, exp.length - 1);
+    var exp = textview.value;
+    textview.value = exp.substring(0, exp.length - 1);
 }
