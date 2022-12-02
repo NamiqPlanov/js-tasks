@@ -1,3 +1,4 @@
+// A: done ✅
 function remove(arr,choosen){
     let temp = []
     for(let i =0;i<arr.length;i++){
@@ -8,6 +9,7 @@ function remove(arr,choosen){
     return temp
 }
 console.log(remove([10,12,13],10))
+// A: done ✅
 function remove2(arr,choosen){
     let temp = []
     for(let elem of arr){
