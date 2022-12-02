@@ -1,3 +1,4 @@
+// A: done ✅
 function abbreviation(name){
     split = prompt('Enter full name: ')
     var split = name.trim().split(' ')
