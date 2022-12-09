@@ -1,4 +1,4 @@
-
+// A: done ✅
  function multiplicatio(arr){
     let multi = 1;
     for(let i = 0;i<arr.length;i++){

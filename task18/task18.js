@@ -1,4 +1,5 @@
 // A: consolelog adi dogru deyil. Callback daha uygun olardi. callback1, callback2 kimi adlandira bilersen. 
+// A: done ✅
 function add(question,alert,callback1){
     
     if (confirm(question)) alert()
