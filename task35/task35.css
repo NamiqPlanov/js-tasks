@@ -1,0 +1,43 @@
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+
+}
+.div1{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+.div2{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+.div3{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+.div4{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
