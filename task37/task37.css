@@ -1,0 +1,11 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+div{
+    display: flex;
+    
+}
+id{
+    margin: 10px;
+}
