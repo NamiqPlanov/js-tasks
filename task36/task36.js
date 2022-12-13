@@ -3,6 +3,7 @@ const circle = document.getElementById('circle')
 const button = document.getElementById('click')
 const root = document.querySelector('.root')
 const pi = 3
+// A: cevrenin olculeri deyishmir
 button.onclick = ()=>{
     const rad = radius.value
     circle.style.width = rad
