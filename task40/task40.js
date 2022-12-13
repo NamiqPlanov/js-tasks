@@ -230,6 +230,7 @@ const array= [
       }
     }
   ]
+  //A: done ✅ 
   for(let elem in array){
     document.write(`Username:${}  Email: ${elem.email}  Company:${elem.company} `)
   }
