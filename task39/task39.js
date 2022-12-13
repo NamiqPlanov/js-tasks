@@ -230,6 +230,7 @@ const array= [
       }
     }
   ]
+  // A: done ✅
   const answer = array.map((elem)=>{
     return `${elem.id}-${elem.username}-${elem.email}`
   })
