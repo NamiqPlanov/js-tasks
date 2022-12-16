@@ -230,6 +230,7 @@ const array= [
       }
     }
   ]
-  for(let elem in array){
-    document.write(`Username:${}  Email: ${elem.email}  Company:${elem.company} `)
-  }
+const getname =  (name)=>{
+  return array.find((user)=>user.name === name)
+}
+document.write(answer("Moriah.Stanton"))

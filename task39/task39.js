@@ -230,7 +230,10 @@ const array= [
       }
     }
   ]
-  const answer = array.map((elem)=>{
-    return `${elem.id}-${elem.username}-${elem.email}`
-  })
-  console.log(answer)
+  const info = (user)=>{
+    for(let data in array){
+      return array.forEach(`Username:${data.username}\n Email: ${data.email}\n Company:${data.company}`)
+    }
+  }
+  console.log(info())
+    
