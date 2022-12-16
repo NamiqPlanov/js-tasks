@@ -1,3 +1,4 @@
+// A: done ✅
 const now = Date.now()
 const birthyear = new Date(2003,11,5)
 birthyearanswer = now -birthyear.getTime()
