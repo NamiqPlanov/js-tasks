@@ -237,12 +237,9 @@ const array= [
   
   info(array)
     
-<<<<<<< HEAD
 
-=======
-  // A: done ✅
   const answer = array.map((elem)=>{
     return `${elem.id}-${elem.username}-${elem.email}`
   })
   console.log(answer)
->>>>>>> 19e6ec68f3027bd8e283747631ffe335a3b72bc1
+
