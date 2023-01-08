@@ -1,0 +1,17 @@
+.root{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.root>h3{
+    border: 2px solid black;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+h3:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px;
+    border: 2px solid rgb(9, 9, 87);
+    color: rgb(9, 9, 87);
+}

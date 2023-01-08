@@ -230,7 +230,7 @@ const array= [
       }
     }
   ]
-<<<<<<< HEAD
+
   const info = (user)=>{
     for(let data in array){
       return array.forEach(`Username:${data.username}\n Email: ${data.email}\n Company:${data.company}`)
@@ -238,10 +238,4 @@ const array= [
   }
   console.log(info())
     
-=======
-  // A: done ✅
-  const answer = array.map((elem)=>{
-    return `${elem.id}-${elem.username}-${elem.email}`
-  })
-  console.log(answer)
->>>>>>> 192e272d3941561b06c76d748f978d7f11db4542
+
