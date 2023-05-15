@@ -1,10 +1,10 @@
 const radius = document.getElementById('radius')
 const circle = document.getElementById('circle')
-const button = document.getElementById('click')
+const btn = document.getElementById('draw')
 const root = document.querySelector('.root')
 const pi = 3
 // A: cevrenin olculeri deyishmir
-button.onclick = ()=>{
+btn.onclick = ()=>{
     const rad = radius.value
     circle.style.width = rad
     circle.style.height = rad

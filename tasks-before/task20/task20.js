@@ -6,3 +6,4 @@ let object1 = {
 }
 delete object1.citizenship
 console.log(object1)
+

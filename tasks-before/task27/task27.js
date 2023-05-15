@@ -1,22 +1,10 @@
-// A: done ✅
-function remove(arr,choosen){
+function delete1(arr,target){
     let temp = []
-    for(let i =0;i<arr.length;i++){
-        if(arr[i]!==choosen){
-            temp.push(arr[i])
-        }
-    }
-    return temp
-}
-console.log(remove([10,12,13],10))
-// A: done ✅
-function remove2(arr,choosen){
-    let temp = []
-    for(let elem of arr){
-        if(elem !== choosen){
+    for (let elem of arr){
+        if (elem!==target){
             temp.push(elem)
         }
     }
     return temp
 }
-console.log(remove2([10,12,13],10))
+console.log(delete1([1,2,3,4],2))

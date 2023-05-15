@@ -19,6 +19,7 @@ function schoolday(){
         default:
             console.log('You must not go to school')
             break
-    }
-}
-console.log(schoolday())
+    }}
+schoolday()
+
+

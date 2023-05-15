@@ -1,4 +1,4 @@
-function gmail(str1,str2,str3){
+function gmail(str1,str2){
     str2 = prompt( `Enter name before ${str1}: `)
     str1 = '@gmail.com'
     if(str2.length>5){

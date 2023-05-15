@@ -1,7 +1,6 @@
-// A: done ✅
-function split(sentence){
-    let sentence = prompt('Enter any sentence: ')
-    var array = sentence.split(' ')
-    console.log(array)
+function split(sent){
+    sent = prompt('enter snetence')
+    let arr = sent.split(' ')
+    console.log(arr)
 }
 split()

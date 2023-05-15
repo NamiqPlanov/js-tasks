@@ -230,14 +230,11 @@ const array= [
       }
     }
   ]
-<<<<<<< HEAD:tasks-before/task40/task40.js
-const getname =  (name)=>{
-  return array.find((user)=>user.name === name)
-}
-document.write(answer("Moriah.Stanton"))
-=======
+
+
+
   //A: done ✅ 
   for(let elem in array){
-    document.write(`Username:${}  Email: ${elem.email}  Company:${elem.company} `)
+    document.write(` Email: ${elem.email}  Company:${elem.company} `)
   }
->>>>>>> 192e272d3941561b06c76d748f978d7f11db4542:task40/task40.js
+

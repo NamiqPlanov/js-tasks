@@ -1,9 +1,10 @@
-let object1 = {
-    player: 'Ivan Brkic',
-    number: 1,
-    citizenship:'Croatia',
-    current_club:'Neftchi PFC'
+let obj = {
+    player:'Solomon Kverkveliya',
+    position:'Stoper',
+    age:30,
+    citizenship:'Georgia',
+    current_club:'Neftchi PFK'
 }
-for (let obj2 in object1){
-    console.log(`${obj2}-${object1[obj2]}`)
+for (let obj2 in obj){
+    console.log(`${obj2}-${obj[obj2]}`)
 }

@@ -1,10 +1,10 @@
-let a = +(prompt('Enter any number: '));
-if (a < 0){
-    console.log('This number is negative')
-} 
-else if(a == 0){
-    console.log('This number is zero')
+let a = +prompt('enter number:')
+if (a<0){
+    alert('negative')
 }
-else(
-    console.log('This number is positive')
-)
+else if(a=0){
+    alert('zero')
+}
+else{
+    alert('positive')
+}

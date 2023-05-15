@@ -14,7 +14,7 @@ while (added !== random_number) {
 } if(times == 1){
             console.log('Yo will get 1000 AZN')
         }
-          if(2 <= times <= 5){
+          if(times<=5){
             console.log('You will get 750 AZN')
         }
          else if(6 <= times <= 9){

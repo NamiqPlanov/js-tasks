@@ -1,19 +1,18 @@
-// A: consolelog adi dogru deyil. Callback daha uygun olardi. callback1, callback2 kimi adlandira bilersen. 
-// A: done ✅
-function add(question,alert,callback1){
-    
-    if (confirm(question)) alert()
-    else callback1()
+
+function add(question,alert1,console1){
+    if (confirm(question)) alert1()
+    else console1()
 }
-function showAlert(number1,number2){
-    number1 = +prompt('Enter first number: ')
-    number2 = +prompt('Enter second number: ')
-    alert(`a+b=${number1+number2}`)
+function ask1(a,b){
+    a = +prompt('enter a:')
+    b = +prompt('enter b:')
+    alert(`a+b=${a+b}`)
 }
-function showConsolelog(number3,number4){
-    number3 = +prompt('Enter first number: ')
-    number4 = +prompt('Enter second number: ')
-    console.log(`a+b=${number3+number4}`)
+function ask2(c,d){
+    c = +prompt('enter c:')
+    d = +prompt('enter d:')
+    console.log(`c+d=${c+d}`)
 }
-add('Alert or Console log?',showAlert,showConsolelog)
+add('Alert or console?',ask1,ask2)
+
 

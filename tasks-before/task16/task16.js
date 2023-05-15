@@ -1,6 +1,9 @@
-function product(a,b){
-    return a**b;
+
+
+
+ function product2(c,d){
+    return c+d
  }
- let a = +prompt("enter a: ")
- let b = +prompt("enter b: ")
- console.log(product(a,b))
+ let c = +prompt('enter c:')
+ let d = +prompt('enter d:')
+ console.log(product2(c,d))
